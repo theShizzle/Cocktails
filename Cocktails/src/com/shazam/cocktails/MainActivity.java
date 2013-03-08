@@ -16,7 +16,7 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         ListView myList = (ListView) findViewById(R.id.my_list);
-        String [] myArray = {"Gin & Tonic", "20th Century", "Martini", "Vodka Martini", "Rum & Coke", "Rye & Ginger", "Scotch on the Rocks", "Cosmopolitan", "Whisky Sour","Amaretto Sour","11","12"};
+        String [] myArray = {"Gin & Tonic", "20th Century", "Martini", "Vodka Martini", "Rum & Coke", "Rye & Ginger", "Scotch on the Rocks", "Cosmopolitan", "Whisky Sour","Amaretto Sour","Wine","12"};
                 
         ArrayAdapter <String> myAdapter = new ArrayAdapter <String> (this, R.layout.myview, R.id.my_view, myArray);
         myList.setAdapter(myAdapter);
